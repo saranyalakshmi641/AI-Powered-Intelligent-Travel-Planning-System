@@ -58,3 +58,11 @@ VoyageAI/
 ├── assets/
 └── data/
 ```
+
+
+# 🚀 How to Run the Project
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
