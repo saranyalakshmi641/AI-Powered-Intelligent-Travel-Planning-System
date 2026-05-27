@@ -30,14 +30,16 @@ The project is built using Python, Streamlit, and LLaMA-based AI agents to provi
 - Multi-Agent AI System
 
 ---
-
 # 📂 Project Structure
 
 ```bash
 VoyageAI/
 │
 ├── app.py
+├── config.py
 ├── requirements.txt
+├── README.md
+│
 ├── agents/
 │   ├── coordinator_agent.py
 │   ├── chatbot_agent.py
@@ -45,6 +47,14 @@ VoyageAI/
 │   ├── flight_agent.py
 │   └── itinerary_agent.py
 │
-├── data/
+├── tools/
+│
+├── utils/
+│   ├── helpers.py
+│   ├── llm.py
+│   ├── prompts.py
+│   └── validators.py
+│
 ├── assets/
-└── README.md
+└── data/
+```
